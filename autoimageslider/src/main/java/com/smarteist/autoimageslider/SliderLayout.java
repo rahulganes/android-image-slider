@@ -219,6 +219,14 @@ public class SliderLayout extends FrameLayout implements CircularSliderHandle.Cu
             pagerIndicator.setVisibility(GONE);
         }
     }
+    
+    public void setPagerSize(int size)
+    {
+    if(visibility)
+    {
+    pagerIndicator.setSize(size);
+    }
+    }
 
     private void setLayout(Context context) {
         View view = LayoutInflater.from(context).inflate(R.layout.slider_layout, this, true);
