@@ -6,14 +6,14 @@ ext {
     bintrayRepo = 'android'
     bintrayName = 'androidautoimageslider'
 
-    publishedGroupId = 'com.github.smarteist'
+    publishedGroupId = 'com.github.rahulganesh'
     libraryName = 'autoimageslider'
     artifact = 'autoimageslider'
 
     libraryDescription = 'Simple, android image slider'
 
-    siteUrl = 'https://github.com/smarteist'
-    gitUrl = 'https://github.com/smarteist/android-image-slider.git'
+    siteUrl = 'https://github.com/rahulganes'
+    gitUrl = 'https://github.com/rahulganes/android-image-slider.git'
 
     libraryVersion = '1.2.0'
     organization = 'smarteistbintray' // if you push to organization's repository.
